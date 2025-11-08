@@ -1,0 +1,58 @@
+# ===============================
+# Python / FastAPI / AI Projects
+# ===============================
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# Environment & secret files
+.env
+*.env
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Local data, uploads, and logs
+data/
+uploads/
+logs/
+tmp/
+*.log
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# VSCode / IDE files
+.vscode/
+.idea/
+
+# Dependency folders
+node_modules/
+*.egg-info/
+
+# Build and distribution files
+dist/
+build/
+*.spec
+
+# Test and coverage outputs
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+
+# Backup files
+*.bak
+*.swp
