@@ -9,6 +9,7 @@ import shutil
 import csv
 import json
 import re
+import uvicorn
 
 load_dotenv()
 
@@ -396,7 +397,10 @@ def participant_query(request: Question):
 
 # ==================== RUN ====================
 
+
+
 if __name__ == "__main__":
-    import uvicorn
-    print("🚀 Starting AI Event Assistant...")
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
+
+    
