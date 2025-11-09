@@ -41,7 +41,7 @@ class EventRAGEngine:
         
         # Initialize embedding model
         print("   Loading embedding model...")
-        self.embedding_model = SentenceTransformer('BAAI/bge-large-en-v1.5')
+        self.embedding_model = SentenceTransformer('BAAI/bge-small-en-v1.5')
         
         # Conversation history
         self.conversation_history = {}
